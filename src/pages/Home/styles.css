@@ -98,3 +98,35 @@
     margin-bottom: 50px;
   }
 }
+
+@media(min-width:1200px){
+  .home-card{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: calc(((85vh - 480px)/2) - 20px) 0;
+  }
+  .home-content-container{
+    height: 480px;
+    width: 700px;
+    align-items: flex-start;
+    text-align: left;
+    align-content: space-between;
+    flex-flow: wrap;
+    padding: 20px;
+  }
+  .home-image-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .home-image-container svg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400) {
+  .home-image-container svg {
+    width: 480px;
+  }
+}
+
